@@ -1,8 +1,4 @@
 /* Initial Settings */
-html, body{
-  height: 100%;
-}
-
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -18,12 +14,17 @@ h1, p {
   margin-top: 0;
 }
 
+html, body{
+  height: 100%;
+}
+
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'Red Hat Display', sans-serif;
   background: hsl(225, 100%, 94%);
+  text-align: center;
 }
 
 
@@ -45,11 +46,10 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100%;
-  min-width: 325px;
 }
 
 .card {
-  max-width: 327px;
+  max-width: 20.4375rem;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
   box-shadow: 0px 40px 40px -20px hsla(228, 87%, 40%, 0.15);
@@ -72,15 +72,13 @@ body {
 
 
 .card__title {
-  text-align: center;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 900;
 }
 
 .card__description {
   color: hsl(224, 23%, 55%);
-  text-align: center;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.66;
 }
 
@@ -112,18 +110,18 @@ body {
 }
 
 .plan {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 900;
 }
 
 .cost {
   color: hsla(224, 23%, 55%, 1);
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .card__payment-plan-half2 a {
   color: hsla(245, 75%, 52%, 1);
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 700;
   transition: .15s ease-in-out;
 }
@@ -131,7 +129,7 @@ body {
 .card__payment-plan-half2 a:hover,
 .card__payment-plan-half2 a:focus {
   color: hsla(245, 83%, 68%, 1);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   text-decoration: none;
 }
@@ -191,12 +189,12 @@ body {
   }
 
   .card__title {
-    font-size: 28px;
+    font-size: 1.75rem;
     margin-bottom: 17px;
   }
 
   .card__description {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .card__payment-plan {
@@ -204,20 +202,20 @@ body {
   }
 
   .plan {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .cost {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .card__payment-plan-half2 a {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .card__payment-plan-half2 a:hover,
   .card__payment-plan-half2 a:focus {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 
   .card__btn {
@@ -236,10 +234,7 @@ body {
 
 /* Footer */
 .attribution {
-  font-size: 11px;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
+  font-size: 0.6875rem;
 }
 
 
